@@ -34,8 +34,8 @@ $(function(){
       var selectedElArr;
       myQuery('.pink').css('color', 'pink');
       selectedElArr = document.getElementsByClassName('pink');
-      expect(selectedElArr[0].style.color).toEqual('pink');
-      expect(selectedElArr[1].style.color).toEqual('pink');
+      expect(selectedElArr[0].style.color).toEqual('rgb(255, 192, 203)');
+      expect(selectedElArr[1].style.color).toEqual('rgb(255, 192, 203)');
     });
 
     it('should remove all selected elements with #remove', function() {

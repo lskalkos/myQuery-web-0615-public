@@ -18,7 +18,6 @@ We'll be making these methods on a prototype called Library.  The creation of ne
 function Library(elString){
   var selectedEl = this.getElement(elString);
   this[0] = selectedEl;
-  return this;
 }
 
 /* where your prototypical methods go... */
