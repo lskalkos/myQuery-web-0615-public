@@ -27,7 +27,7 @@ $(function(){
 
     it('should be able to select elements by id', function() {
       var selectedElArr = myQuery('#large-font')[0];
-      expect(selectedElArr).toEqual(document.getElementsId('large-font'));
+      expect(selectedElArr).toEqual(document.getElementById('large-font'));
     });
 
     it('should be able to change all selected elements with #css', function() {
