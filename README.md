@@ -54,11 +54,11 @@ There is an index.html file that you can experiment with your myQuery function. 
 ```shell
 # Install jasmine:
 gem sources -a http://flatiron:33west26@gems.flatironschool.com
-gem install jasmine-flatiron
+gem install ironboard
 
 # Run Jasmine test suite:
-jasmine-flatiron  # runs only in the terminal
-jasmine-flatiron -b # runs also in the browser
+ironboard  # runs only in the terminal
+ironboard -b # runs also in the browser
 ```
 
 ## Resources
@@ -69,3 +69,4 @@ jasmine-flatiron -b # runs also in the browser
 * [#createElement](https://developer.mozilla.org/en-US/docs/Web/API/document.createElement)
 * [#appendChild](https://developer.mozilla.org/en-US/docs/Web/API/Node.appendChild)
 * [#style](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement.style)
+* [You might not need jQuery (But you totally do)](http://youmightnotneedjquery.com/)
