@@ -44,6 +44,7 @@ myQuerySelectedElements.remove(); // removes selected divs
   - ex. `myQuerySelectedElements.remove();`
 - `#append` should add a new elements after a each selected element.
   - Takes one argument, which is the new element (assume it's correctly formatted).
+  - You might need this regex to help `/(?<=\<)(\w+)/`
   ex. `myQuerySelectedElements.append('<span>Hello</span>');`
 
 There is an index.html file that you can experiment with your myQuery function.  Simply open up the console (`[CTRL + ALT + j]`), and have at it!
