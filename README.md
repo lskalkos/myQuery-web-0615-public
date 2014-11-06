@@ -68,5 +68,7 @@ ironboard -b # runs also in the browser
 * [#getElementsByClassName](https://developer.mozilla.org/en-US/docs/Web/API/Document.getElementsByClassName)
 * [#createElement](https://developer.mozilla.org/en-US/docs/Web/API/document.createElement)
 * [#appendChild](https://developer.mozilla.org/en-US/docs/Web/API/Node.appendChild)
+* [#removeChild](https://developer.mozilla.org/en-US/docs/Web/API/Node.removeChild)
+* [parentNode](https://developer.mozilla.org/en-US/docs/Web/API/Node.parentNode)
 * [#style](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement.style)
 * [You might not need jQuery (But you totally do)](http://youmightnotneedjquery.com/)
