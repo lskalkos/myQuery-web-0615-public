@@ -5,6 +5,9 @@
 ---
 
 # myQuery
+
+__NOTE:__ do NOT use jQuery to build myQuery. It required for testing purposes only.  Using it will defeat the purpose of the lab, which is to understand how jQuery works.
+
 JavaScript libraries are essential for building almost anything on the web, and one of the most common libraries is jQuery.  Most often, you'll see it referenced as a `$`.  It is such a common tool sometimes people have a hard time thinking of the JavaScript language without it.  But at the end of the day it's just a library, like a Ruby gem, and it's important to realize that.
 
 One of the most common uses of jQuery is to select elements in the DOM and do something to or with them.  The Document Object Model (DOM) is a collection of nodes that make up a tree data structure.  The nodes are often html elements. Nodes can have identifiers by their attributes, such as name, class, or id.  Nodes can also be identified by the type of element they are.
