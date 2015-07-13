@@ -1,9 +1,3 @@
----
-  tags: DOM, jQuery, selectors, DOM manipulation
-  languages: JavaScript, js
-  resources: 7
----
-
 # myQuery
 
 __NOTE:__ do NOT use jQuery to build myQuery. It is required for testing purposes only.  Using it will defeat the purpose of the lab, which is to understand how jQuery works.
