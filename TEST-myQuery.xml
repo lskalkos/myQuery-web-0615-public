@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+	<testsuite tests="6" errors="0" failures="6" time="0.027" timestamp="2015-08-27T10:52:16">
+		<testcase classname="myQuery" name="should be able to select elements by tag" time="0.013">
+			<failure type="toEqual" message="Expected undefined to equal [object NodeList].">
+	at stack (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1293:37)
+	at buildExpectationResult (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1270:19)
+	at expectationResultFactory (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:484:40)
+	at addExpectationResult (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:260:70)
+	at addExpectationResult (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:442:41)
+	at file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1209:32
+	at file:///Users/liaskalkos/Desktop/FlatIron/School/myQuery-web-0615/spec/myQuery-spec.js:20:36
+	at attemptSync (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1510:16)
+	at run (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1498:20)
+	at execute (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1485:13)
+	at queueRunnerFactory (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:518:42)
+	at execute (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:306:28)
+	at file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1708:44
+	at attemptAsync (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1520:16)
+	at run (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1496:28)
+	at execute (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1485:13)
+	at queueRunnerFactory (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:518:42)
+	at execute (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1694:21)
+	at file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1708:44
+	at attemptAsync (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1520:16)
+	at run (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1496:28)
+	at execute (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1485:13)
+	at queueRunnerFactory (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:518:42)
+	at execute (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1694:21)
+	at file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:541:83
+	at attemptAsync (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1520:16)
+	at run (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1496:28)
+	at execute (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1485:13)
+	at queueRunnerFactory (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:518:42)
+	at execute (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:548:25)
+	at onload (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/boot.js:172:16)			</failure>
+		</testcase>
+		<testcase classname="myQuery" name="should be able to select elements by class" time="0.002">
+			<failure type="toEqual" message="Expected undefined to equal [object NodeList].">
+	at stack (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1293:37)
+	at buildExpectationResult (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1270:19)
+	at expectationResultFactory (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:484:40)
+	at addExpectationResult (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:260:70)
+	at addExpectationResult (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:442:41)
+	at file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1209:32
+	at file:///Users/liaskalkos/Desktop/FlatIron/School/myQuery-web-0615/spec/myQuery-spec.js:25:36
+	at attemptSync (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1510:16)
+	at run (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1498:20)
+	at execute (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1485:13)
+	at queueRunnerFactory (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:518:42)
+	at execute (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:306:28)
+	at file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1708:44
+	at attemptAsync (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1520:16)
+	at run (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1496:28)
+	at next (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1517:40)
+	at complete (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:333:19)
+	at clearStack (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:506:11)
+	at run (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1505:22)
+	at execute (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1485:13)
+	at queueRunnerFactory (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:518:42)
+	at execute (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:306:28)
+	at file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1708:44
+	at attemptAsync (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1520:16)
+	at run (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1496:28)
+	at execute (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1485:13)
+	at queueRunnerFactory (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:518:42)
+	at execute (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1694:21)
+	at file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1708:44
+	at attemptAsync (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1520:16)
+	at run (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1496:28)
+	at execute (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1485:13)
+	at queueRunnerFactory (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:518:42)
+	at execute (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1694:21)
+	at file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:541:83
+	at attemptAsync (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1520:16)
+	at run (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1496:28)
+	at execute (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1485:13)
+	at queueRunnerFactory (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:518:42)
+	at execute (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:548:25)
+	at onload (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/boot.js:172:16)			</failure>
+		</testcase>
+		<testcase classname="myQuery" name="should be able to select elements by id" time="0.002">
+			<failure type="toEqual" message="Expected undefined to equal HTMLNode.">
+	at stack (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1293:37)
+	at buildExpectationResult (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1270:19)
+	at expectationResultFactory (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:484:40)
+	at addExpectationResult (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:260:70)
+	at addExpectationResult (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:442:41)
+	at file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1209:32
+	at file:///Users/liaskalkos/Desktop/FlatIron/School/myQuery-web-0615/spec/myQuery-spec.js:30:36
+	at attemptSync (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1510:16)
+	at run (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1498:20)
+	at execute (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1485:13)
+	at queueRunnerFactory (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:518:42)
+	at execute (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:306:28)
+	at file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1708:44
+	at attemptAsync (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1520:16)
+	at run (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1496:28)
+	at next (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1517:40)
+	at complete (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:333:19)
+	at clearStack (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:506:11)
+	at run (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1505:22)
+	at execute (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1485:13)
+	at queueRunnerFactory (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:518:42)
+	at execute (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:306:28)
+	at file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1708:44
+	at attemptAsync (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1520:16)
+	at run (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1496:28)
+	at next (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1517:40)
+	at complete (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:333:19)
+	at clearStack (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:506:11)
+	at run (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1505:22)
+	at execute (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1485:13)
+	at queueRunnerFactory (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:518:42)
+	at execute (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:306:28)
+	at file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1708:44
+	at attemptAsync (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1520:16)
+	at run (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1496:28)
+	at execute (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1485:13)
+	at queueRunnerFactory (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:518:42)
+	at execute (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1694:21)
+	at file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1708:44
+	at attemptAsync (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1520:16)
+	at run (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1496:28)
+	at execute (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1485:13)
+	at queueRunnerFactory (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:518:42)
+	at execute (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1694:21)
+	at file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:541:83
+	at attemptAsync (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1520:16)
+	at run (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1496:28)
+	at execute (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1485:13)
+	at queueRunnerFactory (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:518:42)
+	at execute (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:548:25)
+	at onload (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/boot.js:172:16)			</failure>
+		</testcase>
+		<testcase classname="myQuery" name="should be able to change all selected elements with #css" time="0.002">
+			<failure type="" message="TypeError: undefined is not a constructor (evaluating &amp;apos;myQuery(&amp;apos;.pink&amp;apos;).css(&amp;apos;color&amp;apos;, &amp;apos;pink&amp;apos;)&amp;apos;) in file:///Users/liaskalkos/Desktop/FlatIron/School/myQuery-web-0615/spec/myQuery-spec.js (line 35)">
+	at file:///Users/liaskalkos/Desktop/FlatIron/School/myQuery-web-0615/spec/myQuery-spec.js:35:27
+	at attemptSync (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1510:16)
+	at run (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1498:20)
+	at execute (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1485:13)
+	at queueRunnerFactory (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:518:42)
+	at execute (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:306:28)
+	at file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1708:44
+	at attemptAsync (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1520:16)
+	at run (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1496:28)
+	at next (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1517:40)
+	at complete (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:333:19)
+	at clearStack (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:506:11)
+	at run (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1505:22)
+	at execute (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1485:13)
+	at queueRunnerFactory (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:518:42)
+	at execute (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:306:28)
+	at file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1708:44
+	at attemptAsync (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1520:16)
+	at run (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1496:28)
+	at next (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1517:40)
+	at complete (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:333:19)
+	at clearStack (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:506:11)
+	at run (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1505:22)
+	at execute (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1485:13)
+	at queueRunnerFactory (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:518:42)
+	at execute (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:306:28)
+	at file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1708:44
+	at attemptAsync (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1520:16)
+	at run (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1496:28)
+	at next (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1517:40)
+	at complete (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:333:19)
+	at clearStack (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:506:11)
+	at run (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1505:22)
+	at execute (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1485:13)
+	at queueRunnerFactory (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:518:42)
+	at execute (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:306:28)
+	at file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1708:44
+	at attemptAsync (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1520:16)
+	at run (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1496:28)
+	at execute (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1485:13)
+	at queueRunnerFactory (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:518:42)
+	at execute (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1694:21)
+	at file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1708:44
+	at attemptAsync (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1520:16)
+	at run (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1496:28)
+	at execute (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1485:13)
+	at queueRunnerFactory (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:518:42)
+	at execute (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1694:21)
+	at file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:541:83
+	at attemptAsync (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1520:16)
+	at run (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1496:28)
+	at execute (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1485:13)
+	at queueRunnerFactory (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:518:42)
+	at execute (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:548:25)
+	at onload (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/boot.js:172:16)			</failure>
+		</testcase>
+		<testcase classname="myQuery" name="should remove all selected elements with #remove" time="0.002">
+			<failure type="" message="TypeError: undefined is not a constructor (evaluating &amp;apos;myQuery(&amp;apos;.pink&amp;apos;).remove()&amp;apos;) in file:///Users/liaskalkos/Desktop/FlatIron/School/myQuery-web-0615/spec/myQuery-spec.js (line 43)">
+	at file:///Users/liaskalkos/Desktop/FlatIron/School/myQuery-web-0615/spec/myQuery-spec.js:43:30
+	at attemptSync (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1510:16)
+	at run (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1498:20)
+	at execute (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1485:13)
+	at queueRunnerFactory (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:518:42)
+	at execute (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:306:28)
+	at file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1708:44
+	at attemptAsync (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1520:16)
+	at run (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1496:28)
+	at next (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1517:40)
+	at complete (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:333:19)
+	at clearStack (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:506:11)
+	at run (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1505:22)
+	at execute (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1485:13)
+	at queueRunnerFactory (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:518:42)
+	at execute (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:306:28)
+	at file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1708:44
+	at attemptAsync (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1520:16)
+	at run (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1496:28)
+	at next (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1517:40)
+	at complete (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:333:19)
+	at clearStack (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:506:11)
+	at run (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1505:22)
+	at execute (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1485:13)
+	at queueRunnerFactory (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:518:42)
+	at execute (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:306:28)
+	at file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1708:44
+	at attemptAsync (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1520:16)
+	at run (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1496:28)
+	at next (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1517:40)
+	at complete (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:333:19)
+	at clearStack (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:506:11)
+	at run (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1505:22)
+	at execute (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1485:13)
+	at queueRunnerFactory (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:518:42)
+	at execute (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:306:28)
+	at file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1708:44
+	at attemptAsync (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1520:16)
+	at run (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1496:28)
+	at next (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1517:40)
+	at complete (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:333:19)
+	at clearStack (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:506:11)
+	at run (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1505:22)
+	at execute (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1485:13)
+	at queueRunnerFactory (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:518:42)
+	at execute (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:306:28)
+	at file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1708:44
+	at attemptAsync (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1520:16)
+	at run (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1496:28)
+	at execute (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1485:13)
+	at queueRunnerFactory (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:518:42)
+	at execute (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1694:21)
+	at file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1708:44
+	at attemptAsync (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1520:16)
+	at run (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1496:28)
+	at execute (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1485:13)
+	at queueRunnerFactory (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:518:42)
+	at execute (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1694:21)
+	at file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:541:83
+	at attemptAsync (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1520:16)
+	at run (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1496:28)
+	at execute (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1485:13)
+	at queueRunnerFactory (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:518:42)
+	at execute (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:548:25)
+	at onload (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/boot.js:172:16)			</failure>
+		</testcase>
+		<testcase classname="myQuery" name="should append an element to all selected elements with #append" time="0.004">
+			<failure type="" message="TypeError: undefined is not a constructor (evaluating &amp;apos;myQuery(&amp;apos;.pink&amp;apos;).append(&amp;apos;&amp;lt;span&amp;gt;Hello&amp;lt;/span&amp;gt;&amp;apos;)&amp;apos;) in file:///Users/liaskalkos/Desktop/FlatIron/School/myQuery-web-0615/spec/myQuery-spec.js (line 50)">
+	at file:///Users/liaskalkos/Desktop/FlatIron/School/myQuery-web-0615/spec/myQuery-spec.js:50:30
+	at attemptSync (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1510:16)
+	at run (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1498:20)
+	at execute (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1485:13)
+	at queueRunnerFactory (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:518:42)
+	at execute (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:306:28)
+	at file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1708:44
+	at attemptAsync (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1520:16)
+	at run (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1496:28)
+	at next (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1517:40)
+	at complete (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:333:19)
+	at clearStack (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:506:11)
+	at run (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1505:22)
+	at execute (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1485:13)
+	at queueRunnerFactory (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:518:42)
+	at execute (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:306:28)
+	at file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1708:44
+	at attemptAsync (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1520:16)
+	at run (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1496:28)
+	at next (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1517:40)
+	at complete (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:333:19)
+	at clearStack (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:506:11)
+	at run (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1505:22)
+	at execute (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1485:13)
+	at queueRunnerFactory (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:518:42)
+	at execute (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:306:28)
+	at file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1708:44
+	at attemptAsync (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1520:16)
+	at run (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1496:28)
+	at next (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1517:40)
+	at complete (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:333:19)
+	at clearStack (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:506:11)
+	at run (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1505:22)
+	at execute (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1485:13)
+	at queueRunnerFactory (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:518:42)
+	at execute (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:306:28)
+	at file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1708:44
+	at attemptAsync (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1520:16)
+	at run (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1496:28)
+	at next (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1517:40)
+	at complete (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:333:19)
+	at clearStack (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:506:11)
+	at run (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1505:22)
+	at execute (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1485:13)
+	at queueRunnerFactory (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:518:42)
+	at execute (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:306:28)
+	at file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1708:44
+	at attemptAsync (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1520:16)
+	at run (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1496:28)
+	at next (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1517:40)
+	at complete (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:333:19)
+	at clearStack (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:506:11)
+	at run (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1505:22)
+	at execute (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1485:13)
+	at queueRunnerFactory (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:518:42)
+	at execute (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:306:28)
+	at file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1708:44
+	at attemptAsync (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1520:16)
+	at run (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1496:28)
+	at execute (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1485:13)
+	at queueRunnerFactory (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:518:42)
+	at execute (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1694:21)
+	at file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1708:44
+	at attemptAsync (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1520:16)
+	at run (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1496:28)
+	at execute (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1485:13)
+	at queueRunnerFactory (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:518:42)
+	at execute (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1694:21)
+	at file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:541:83
+	at attemptAsync (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1520:16)
+	at run (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1496:28)
+	at execute (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1485:13)
+	at queueRunnerFactory (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:518:42)
+	at execute (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:548:25)
+	at onload (file:///Users/liaskalkos/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/boot.js:172:16)			</failure>
+		</testcase>
+	</testsuite>
+</testsuites>
+
